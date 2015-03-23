@@ -1,0 +1,24 @@
+{
+  "name": "synologyconnector",
+  "title": "SynologyConnector",
+  "id": "jid1-4pu7tSAKnTNbaQ",
+  "description": "a basic add-on",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  
+  "preferences": [{
+        "name": "Username",
+        "title": "Username",
+        "description": "Enter the username",
+        "type": "string",
+        "value": "admin"
+    },
+    {
+        "description": "Password",
+        "name": "Password",
+        "type": "string",
+        "value": "***REMOVED***",
+        "title": "Username's password"
+    }]
+}
