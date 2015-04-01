@@ -1,7 +1,7 @@
 // When the user hits return, send the "text-entered"
 // message to main.js.
 // The message payload is the contents of the edit box.
-var textArea = document.getElementById("edit-box");
+/*var textArea = document.getElementById("edit-box");
 textArea.addEventListener('keyup', function onkeyup(event) {
   if (event.keyCode == 13) {
     // Remove the newline.
@@ -9,7 +9,7 @@ textArea.addEventListener('keyup', function onkeyup(event) {
     self.port.emit("text-entered", text);
     textArea.value = '';
   }
-}, false);
+}, false);*/
 // Listen for the "show" event being sent from the
 // main add-on code. It means that the panel's about
 // to be shown.
@@ -17,5 +17,5 @@ textArea.addEventListener('keyup', function onkeyup(event) {
 // Set the focus to the text area so the user can
 // just start typing.
 self.port.on("show", function onShow() {
-  textArea.focus();
+  //textArea.focus();
 });

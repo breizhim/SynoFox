@@ -1,5 +1,3 @@
-var Request = require("sdk/request").Request;
-
 // When the user hits return, send the "text-entered"
 // message to main.js.
 // The message payload is the contents of the edit box.
